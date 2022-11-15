@@ -91,10 +91,10 @@ Baby.prototype.play = function(){
 /* 
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Window Binding - global binding, essentially an error and nothing else has been assigned to "this" yet
+  2. Implicit Binding - what is to the left of the dot is what "this" refers to
+  3. New Binding - Used within a constructor funtion, "this" refers to the object newly created
+  4. Explicit Binding - .call, .apply, .bind to explicity state what "this" refers to
 */
 
 ///////// END OF CHALLENGE /////////
